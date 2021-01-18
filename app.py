@@ -52,7 +52,7 @@ def welcome():
         f"<p>Usage:</p>"
         f"/api/v1.0/precipitation<br/>Return the JSON representation of dictionary.<br/><br/>"
         f"/api/v1.0/stations<br/>Return a JSON list of stations from the dataset.<br/><br/>"
-        f"/api/v1.0/tobs<br/>Return a JSON list of temperature observations (TOBS) for the previous year. between 8/23/16 and 8/23/17.<br/><br/>"
+        f"/api/v1.0/tobs<br/>Return a JSON list of temperature observations (TOBS) for the previous year. between 8/24/16 and 8/23/17.<br/><br/>"
         f"/api/v1.0/start<br/>Return a JSON list of the minimum temperature, the average temperature, and the max temperature for the dates between the given start date and 8/23/17<br/><br/>."
         f"/api/v1.0/<start>/<end><br/>Calculate TMIN, TAVG, and TMAX.<br/><br/>"
     )
